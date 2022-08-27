@@ -5,7 +5,7 @@ const blogRoutes = require('./routes/blogRoutes');
 
 const app = express();
 
-const dbURI = "mongodb+srv://sercan:1234@nodejsblogsite.zgmifjt.mongodb.net/?retryWrites=true&w=majority"
+const dbURI = "<mongodb>"
 
 mongoose.connect(dbURI)
     .then((result) => app.listen(3001))
